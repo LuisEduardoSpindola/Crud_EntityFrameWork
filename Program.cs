@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Context>(options => options.UseMySql
-("server=localhost;initial catalog=MVC_CRUD; user=root; pwd=admin123", ServerVersion.Parse("8.0.32-mysql")));
+("server=localhost;initial catalog=MVC_CRUD; user=root; pwd=???", ServerVersion.Parse("8.0.32-mysql")));
 
 var app = builder.Build();
 
